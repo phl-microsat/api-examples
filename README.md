@@ -19,5 +19,5 @@ pip install geojson
 ## Run Examples
 Go to the project directory and run:
 ```
-jupyter notebok
+jupyter notebook
 ```
