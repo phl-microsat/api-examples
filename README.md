@@ -1,4 +1,4 @@
-## Dependencies
+## Install Dependencies
 To run the examples locally, we recommend installing Anaconda and the Jupyter notebook library.
 
 ### Anaconda
@@ -14,4 +14,10 @@ conda install jupyter
 pip install requests
 pip install folium
 pip install geojson
+```
+
+## Run Examples
+Go to the project directory and run:
+```
+jupyter notebok
 ```
