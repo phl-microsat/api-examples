@@ -102,74 +102,10 @@ By default, the API returns 10 results at a time. Overriding page size and viewi
             "mission_name": null,
             "mission_start_time": null
         },
-        {
-            "scene_id": "D1_SMI_2018-06-22T053111005_V490",
-            "scene_center": {
-                "type": "Point",
-                "coordinates": [
-                    122.41037919898515,
-                    13.524257425972182
-                ]
-            },
-            "scene_footprint": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [
-                            122.60181321555628,
-                            13.463561180795324
-                        ],
-                        [
-                            122.4026086729601,
-                            13.328684017512556
-                        ],
-                        [
-                            122.21894518241409,
-                            13.584953671149043
-                        ],
-                        [
-                            122.41814972501025,
-                            13.71983083443181
-                        ],
-                        [
-                            122.60181321555628,
-                            13.463561180795324
-                        ]
-                    ]
-                ]
-            },
-            "satellite_name": "diwata-1",
-            "payload": "smi",
-            "cloudcover": null,
-            "capture_time": "2018-06-22T05:31:11.005041",
-            "wavelength": 490,
-            "published_time": null,
-            "links": {
-                "bundle_url": "https://phl-microsat-storage.dream.upd.edu.ph/images/diwata-1/D1_SMI_2018-06-22T053111005_V490/D1_SMI_2018-06-22T053111005_V490.zip",
-                "thumbnail_url": "https://phl-microsat-storage.dream.upd.edu.ph/images/diwata-1/D1_SMI_2018-06-22T053111005_V490/D1_SMI_2018-06-22T053111005_V490-thumb.png"
-            },
-            "image_quality": null,
-            "bands": {
-                "L1A": "D1_SMI_2018-06-22T053111005_V490_L1A.tif",
-                "L1B": "D1_SMI_2018-06-22T053111005_V490_L1B.tif",
-                "L1C": "D1_SMI_2018-06-22T053111005_V490_L1C.tif"
-            },
-            "day_or_night": "",
-            "sun_elevation": 64.55355218551621,
-            "sun_azimuth": 296.53258085383357,
-            "products": {
-                "L1A": "D1_SMI_2018-06-22T053111005_V490_L1A.tif",
-                "L1B": "D1_SMI_2018-06-22T053111005_V490_L1B.tif",
-                "L1C": "D1_SMI_2018-06-22T053111005_V490_L1C.tif"
-            },
-            "satellite_color": null,
-            "payload_color": null,
-            "mission_id": null,
-            "mission_name": null,
-            "mission_start_time": null
-        },
+
         ...
-    ],
+
+],
     "meta": {
         "total_count": 1548,
         "total_pages": 154.8,
