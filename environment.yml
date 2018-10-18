@@ -1,4 +1,4 @@
-name: public-api-examples
+name: api-examples
 channels:
   - defaults
 dependencies:
@@ -90,5 +90,5 @@ dependencies:
     - numpy==1.15.2
     - requests==2.20.0
     - urllib3==1.24
-prefix: /home/benjiao/anaconda3/envs/public-api-examples
+prefix: /home/benjiao/anaconda3/envs/api-examples
 

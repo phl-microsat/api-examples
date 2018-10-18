@@ -4,20 +4,20 @@ To run the examples locally, we recommend installing Anaconda and the Jupyter no
 ### Anaconda
 https://www.anaconda.com/download/
 
-### Jupyter notebook
+### Python Dependencies
+All dependencies needed to run the demos have been saved in a conda requirements file. Create a new conda environemnt with all the dependencies by typing:
+
 ```
-conda install jupyter
+conda env create -f requirements.yml
 ```
 
-### Other dependencies
-```
-pip install requests
-pip install folium
-pip install geojson
-```
+This will create a new conda environment called `api-examples`
 
-## Run Examples
-Go to the project directory and run:
+
+## Run Notebooks
+Under the project directory, start the notebooks by activating the environment and running the Jupyter command:
+
 ```
+source activate api-examples
 jupyter notebook
 ```
