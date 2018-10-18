@@ -32,6 +32,162 @@ By default, the API returns 10 results at a time. Overriding page size and viewi
 |                | Multiple sort parameters will prioritize fields from left to right.  |               | `/scenes?sort=payload,capture_time`                       |
 |                | Fields can be sorted in descending order by adding a `-` symbol      |               | `/scenes?sort=payload,-capture_time`                      |
 
+### Output
+```
+{
+    "data": [
+        {
+            "scene_id": "D1_SMI_2018-06-22T053111055_V550",
+            "scene_center": {
+                "type": "Point",
+                "coordinates": [
+                    122.43041191598462,
+                    13.499050232561672
+                ]
+            },
+            "scene_footprint": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            122.62270772244743,
+                            13.438726191427726
+                        ],
+                        [
+                            122.42199776143877,
+                            13.303514648530331
+                        ],
+                        [
+                            122.23811610952181,
+                            13.559374273695617
+                        ],
+                        [
+                            122.43882607053047,
+                            13.694585816593012
+                        ],
+                        [
+                            122.62270772244743,
+                            13.438726191427726
+                        ]
+                    ]
+                ]
+            },
+            "satellite_name": "diwata-1",
+            "payload": "smi",
+            "cloudcover": null,
+            "capture_time": "2018-06-22T05:31:11.055041",
+            "wavelength": 550,
+            "published_time": null,
+            "links": {
+                "bundle_url": "https://phl-microsat-storage.dream.upd.edu.ph/images/diwata-1/D1_SMI_2018-06-22T053111055_V550/D1_SMI_2018-06-22T053111055_V550.zip",
+                "thumbnail_url": "https://phl-microsat-storage.dream.upd.edu.ph/images/diwata-1/D1_SMI_2018-06-22T053111055_V550/D1_SMI_2018-06-22T053111055_V550-thumb.png"
+            },
+            "image_quality": null,
+            "bands": {
+                "L1A": "D1_SMI_2018-06-22T053111055_V550_L1A.tif",
+                "L1B": "D1_SMI_2018-06-22T053111055_V550_L1B.tif",
+                "L1C": "D1_SMI_2018-06-22T053111055_V550_L1C.tif"
+            },
+            "day_or_night": "",
+            "sun_elevation": 64.52449656078697,
+            "sun_azimuth": 296.56580289395646,
+            "products": {
+                "L1A": "D1_SMI_2018-06-22T053111055_V550_L1A.tif",
+                "L1B": "D1_SMI_2018-06-22T053111055_V550_L1B.tif",
+                "L1C": "D1_SMI_2018-06-22T053111055_V550_L1C.tif"
+            },
+            "satellite_color": null,
+            "payload_color": null,
+            "mission_id": null,
+            "mission_name": null,
+            "mission_start_time": null
+        },
+        {
+            "scene_id": "D1_SMI_2018-06-22T053111005_V490",
+            "scene_center": {
+                "type": "Point",
+                "coordinates": [
+                    122.41037919898515,
+                    13.524257425972182
+                ]
+            },
+            "scene_footprint": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            122.60181321555628,
+                            13.463561180795324
+                        ],
+                        [
+                            122.4026086729601,
+                            13.328684017512556
+                        ],
+                        [
+                            122.21894518241409,
+                            13.584953671149043
+                        ],
+                        [
+                            122.41814972501025,
+                            13.71983083443181
+                        ],
+                        [
+                            122.60181321555628,
+                            13.463561180795324
+                        ]
+                    ]
+                ]
+            },
+            "satellite_name": "diwata-1",
+            "payload": "smi",
+            "cloudcover": null,
+            "capture_time": "2018-06-22T05:31:11.005041",
+            "wavelength": 490,
+            "published_time": null,
+            "links": {
+                "bundle_url": "https://phl-microsat-storage.dream.upd.edu.ph/images/diwata-1/D1_SMI_2018-06-22T053111005_V490/D1_SMI_2018-06-22T053111005_V490.zip",
+                "thumbnail_url": "https://phl-microsat-storage.dream.upd.edu.ph/images/diwata-1/D1_SMI_2018-06-22T053111005_V490/D1_SMI_2018-06-22T053111005_V490-thumb.png"
+            },
+            "image_quality": null,
+            "bands": {
+                "L1A": "D1_SMI_2018-06-22T053111005_V490_L1A.tif",
+                "L1B": "D1_SMI_2018-06-22T053111005_V490_L1B.tif",
+                "L1C": "D1_SMI_2018-06-22T053111005_V490_L1C.tif"
+            },
+            "day_or_night": "",
+            "sun_elevation": 64.55355218551621,
+            "sun_azimuth": 296.53258085383357,
+            "products": {
+                "L1A": "D1_SMI_2018-06-22T053111005_V490_L1A.tif",
+                "L1B": "D1_SMI_2018-06-22T053111005_V490_L1B.tif",
+                "L1C": "D1_SMI_2018-06-22T053111005_V490_L1C.tif"
+            },
+            "satellite_color": null,
+            "payload_color": null,
+            "mission_id": null,
+            "mission_name": null,
+            "mission_start_time": null
+        },
+        ...
+    ],
+    "meta": {
+        "total_count": 1548,
+        "total_pages": 154.8,
+        "page": 1,
+        "page_size": 10
+    },
+    "links": {
+        "histogram": "https://api.orange.phl-microsat.xyz/scenes/histogram?",
+        "self": "https://api.orange.phl-microsat.xyz/scenes?page=1&limit=10",
+        "first": "https://api.orange.phl-microsat.xyz/scenes?page=1&limit=10",
+        "prev": "https://api.orange.phl-microsat.xyz/scenes?page=1&limit=10",
+        "next": "https://api.orange.phl-microsat.xyz/scenes?page=2&limit=10",
+        "last": "https://api.orange.phl-microsat.xyz/scenes?page=154.8&limit=10"
+    }
+}
+```
+
+
 
 # GET /scenes/histogram
 This endpoint returns the number of scenes per day. Filters for the `GET /scenes` endpoint also work here!
