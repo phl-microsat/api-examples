@@ -8,17 +8,15 @@ https://www.anaconda.com/download/
 Create a new conda environemnt with all the dependencies by typing:
 
 ```
-conda env create -n api-examples jupyter
+conda env create -n api-examples jupyter pip
 activate api-examples
-pip install requests
-pip install folium
-pip install geojson
+pip install requests folium geojson
 ```
 
 ## Run Notebooks
 Under the project directory, start the notebooks by activating the environment and running the Jupyter command:
 
 ```
-source activate api-examples
+activate api-examples
 jupyter notebook
 ```
