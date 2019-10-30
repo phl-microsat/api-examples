@@ -17,6 +17,6 @@ pip install requests folium geojson
 Under the project directory, start the notebooks by activating the environment and running the Jupyter command:
 
 ```
-activate api-examples
+conda activate api-examples
 jupyter notebook
 ```
